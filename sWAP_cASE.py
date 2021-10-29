@@ -1,12 +1,12 @@
 def swap_case(s):
 
     # sWAP cASE in Python - HackerRank Solution START
-    Output = '';
+    Output = ''
     for char in s:
         if(char.isupper()==True):
-            Output += (char.lower());
+            Output += (char.lower())
         elif(char.islower()==True):
-            Output += (char.upper());
+            Output += (char.upper())
         else:
-            Output += char;
-    return Output;
+            Output += char
+    return Output
